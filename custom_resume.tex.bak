@@ -1,0 +1,14 @@
+\documentclass[]{theme}
+ 
+\begin{document}
+ 
+\namesection{Marko Elez}{Design Technologist / Full-Stack Software Engineer} \\[8pt]
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+\section{Languages}
+
+\end{minipage}
+
+
+\end{document}
