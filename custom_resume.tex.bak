@@ -1,14 +1,114 @@
 \documentclass[]{theme}
- 
+% remove indentation
+\setlength\parindent{0pt}
 \begin{document}
- 
-\namesection{Marko Elez}{Design Technologist / Full-Stack Software Engineer} \\[8pt]
+% remove page numbering
+\pagenumbering{gobble}
+
+\namesection{Marko Elez}{Design Technologist / Data Scientist / Full-Stack Software Engineer}{marko.elez@rutgers.edu}{phone}{https://markoelez.com} \\[5pt]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{minipage}[t]{0.33\textwidth} 
 
 \section{Languages}
+\descript{English, Spanish, Serbian, Croatian}
+\sectionsep
+
+\section{Honors \& Awards}
+\descript{National AP Scholar \\ AP Scholar with Distinction\\ Dean's List for Academic Excellence}
+\sectionsep
+
+\section{Skills}
+\descript{Project Management, Software Engineering, Data Science \& Machine Learning, Interaction Design \& Prototyping, Graphic Design, Mobile and Web Development, UI \& UX Design, Computer Vision. \\[5pt]
+Proficient in Photoshop, Illustrator, \& Sketch. Experience with projects involving Raspberry Pi and Arduino development boards.}
+\sectionsep
+
+\section{Development Stack}
+\descript{Java, Python, C++, Dart, Swift, JavaScript, Tensorflow, Node.js, React, Flutter, Flask, LaTeX, Express.js.}
+\sectionsep
+
+\section{Coursework}
+\subsection{College}
+\descript{Data Structures, Multivariable Calculus, Linear Algebra, Mathematical Reasoning, Differential Equations, Real Analysis, Probability Theory.}
+\sectionsep
+\subsection{Independent}
+\location{edX {} edX.org}
+\descript{Deep Learning with Tensorflow by IBM Developer Skills Network\\ 
+Computing in Python IV: Objects \& Algorithms by Georgia Tech \\
+Python for Data Science by UCSanDiego.}
+\sectionsep
+\location{Udemy {} Udemy.com}
+\descript{Python in Data Science -- SuperDataScience\\ 
+Advanced AI: Deep Reinforcement Learning in Python -- Lazy Programmer Inc. \\
+TensorFlow for Deep Learning with Python -- Pieren Data Inc. \\
+Artificial Neural Networks -- SuperDataScience \\
+Artificial Intelligence: Reinforcement Learning in Python -- Lazy Programmer Inc.}
+\sectionsep
+\sectionsep
+\sectionsep
+
+\colored{View complete porfolio at}{markoelez.com.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+\section{Education}
+\subsection{B.S. Computer Science, B.A. Mathematics}
+\location{Rutgers University {} 2018-2021}
+\descript{3.8 Cumulative GPA}
+\sectionsep
+
+\section{Experience}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Rutgers general
+\subsection{Solutions Engineer}
+\location{Rutgers University {} | {} July 2018 - Present}
+\descript{Designed, managed, and implemented multiple successful projects. Created a mobile application using Flutter and Dart designed to help students manage their meal swipes more effectively. Engineered a "food delivery" system allowing students to save time and make money while simultaneously serving to optimize the University dining hall takeout system.}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Cyber Physical Systems Laboratory
+\subsection{Computer Vision Research Assistant}
+\location{Rutgers Cyber Physical Systems Laboratory {} | {} March 2019 - July 2019}
+\descript{Conducted NSF funded research involving realtime dynamic control and adaptation of networked aquatic robots in resource-constrained and uncertain environments. Developed a basic version of SLAM monocular visual odometry using python, cv2 (OpenCV), pangolin, and pygame. Worked on implementing adaptive sensing algorithms and computer vision techniques using a Raspberry Pi designed to facilitate navigation and data collection. Collaborated with a team of student researchers adhering to an iterative research and testing cycle.}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Scope
+\subsection{Project Manager and Lead Engineer}
+\location{Scope Analytics Inc. {} | {} August 2018 - December 2018}
+\descript{Conceptualized the idea for Scope: an educational startup designed to connect prospective college applicants with student mentors at Universities across the United States. Designed and prototyped the UI and UX for the Scope iOS application written in Swift 4 using XCode. Led backend development team responsible for implementing REST API using Node.js and Express.js. Managed development workflow for different components of the project in conjunction with a team of developers.}
+\sectionsep
+
+\section{Side Projects}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CrowdForce
+\subsection{pyAutoSim}
+\location{Autonomous Vehicle Agent}
+\descript{Trained virtual car agents using several convolutional neural networks including Alexnet, ResNet, and Inception-v4 to navigate virtual environment and perform tasks autonomously. Agent was able to successfully Udacity's Open Source Self-Driving Car Simulator using direct input frames generated and processed using Python in conjunction with OpenCV, numpy, and MSS.}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CrowdForce
+\subsection{CrowdForce}
+\location{Intelligent Crowd Movement Optimization System}
+\descript{Developed an algorithm designed to streamline student traffic through densely populated areas using realtime motion tracking and prediction. Implemented basic authorization system with facial recognition using a pre-trained dlib deep ResNet model and OpenCV.}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Kaggle
+\subsection{Pneumonia Detection}
+\location{RSNA Pneumonia Detection Challenge hosted by Kaggle}
+\descript{Trained a region-based convolutional neural network (R-CNN) over 15300 iterations to predict the presence of pneumonia in a dataset consisting of chest radiograph imaging.}
+\sectionsep
+
 
 \end{minipage}
-
 
 \end{document}
